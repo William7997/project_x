@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.topic{
+    color: white;
+    display: inline;
+}
+
+.bg{
+    width: 100vw;
+    background-color: #203343;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg .topic{
+    padding-right: 50px;
+    cursor: default;
+}
+
+.title{
+    display: inline;
+}
+
+.w{
+    font: icon;
+}
+
+.ll{
+    display: inline;
+}
+
+.list{
+    display: inline;
+    color: white;
+}
+
+.two{
+    display: inline;
+}
+
+.cre{
+    display: inline;
+    font-size: 25px;
+}
+
+.bus{
+    display: inline;
+    font-size: 25px;
+}
+
+.gro{
+    display: inline;
+    font-size: 25px;
+}
+
+.res{
+    display: inline;
+    font-size: 25px;
+}
+
+.block{
+    display: inline;
+}
+
+.ab{
+    display: inline;
+}
+
+.cu{
+    display: inline;
+}
+
+.a{
+    background-color: #30404d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.a:hover{
+    background: silver;
+    color: #30404d;
+}
+
+.c{
+    background-color: #30404d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.c:hover{
+    background: silver;
+    color: #30404d;
+}
+
+.b{
+    background-color: #30404d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.b:hover{
+    background: silver;
+    color: #30404d;
+}
+
+.g{
+    background-color: #30404d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.g:hover{
+    background: silver;
+    color: #30404d;
+}
+
+.r{
+    background-color: #30404d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.r:hover{
+    background: silver;
+    color: #30404d;
+}
+
+.page{
+    background-color: rgb(51, 51, 51);
+}
+
+.para{
+    color: white;
+    text-align: justify;
+    width: 690px;
+    display: inline-block;
+}
+
+@font-face{
+    font-family: 'Nunito-VariableFont'; 
+    src:local('Nunito-VariableFont'), url('../libs/fonts/nunito/Nunito-VariableFont_wght.ttf') format('woff')
+}
+
+div p{
+    font-family: 'Nunito-VariableFont';
+}
+
+.pic{
+    display: inline;
+}
+
+.npic{
+    width: 800px;
+    height: 310px;
+}
+
+.start{
+    display: inline-block;
+    color: rgb(64, 47, 104);
+    font-size: 30px;
+    text-align: left;
+}
+
+.p1{
+    background-image: url(https://emilydenisephotography.com/wp-content/uploads/2021/02/Unitec_Website_1594x675_Photography.jpg);
+    padding: 20px 5px;
+    width: 100vw;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: inline-block;
+    text-align: left;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.p1 h3{
+    transform: translateY(60px);
+}
+
+.p1 pre{
+    transform: translateY(100px);
+    line-height: 50px;
+}
+
+.p2{
+    color: black;
+    background-color: rgb(65, 49, 6);
+    background-image: url(http://www.evangeline-rose.co.uk/wp-content/uploads/2020/05/Study-Photography-.jpeg);
+    padding: 20px 5px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    margin-bottom: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.p2 h3{
+    text-align: right;
+    padding-right: 30px;
+    transform: translateY(50px);
+}
+
+.p2 p{
+    text-align: right;
+    padding-right: 30px;
+    transform: translateY(100px);
+    line-height: 50px;
+}
+
+.p3{
+    color: rgb(1, 83, 49);
+    background-image: url(https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2014/07/08132212/bigstock-Travel-Photographer-Taking-A-P-302170048-min.jpg);
+    background-color: cadetblue;
+    padding: 30px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 300px;
+    margin-bottom: 100px;
+    font-family: arial;
+    display: inline-block;
+}
+
+.p4{
+    background-color: cadetblue;
+    padding: 15px;
+    width: 929px;
+    height: 430px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.photov{
+    background-color: rgb(44, 49, 54);
+    width: 100vw;
+    height: 300px;
+    margin: auto;
+    display: inline-block;
+}
+
+div h3.fl{
+    color: blanchedalmond;
+    font-family: 'Archivo', sans-serif;
+    font-size: 35px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.photov > p{
+    color:#aac6dd;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: local('Roboto-Regular.ttf'),url('../css/libs/fonts/roboto/Roboto-Regular.ttf') format('woff');
+}
+
+.sin{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.regis form{
+    border: 2px solid #30404d;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    background-color: #30404d;
+    text-align: center;
+    display:table;
+    margin:auto;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.regis .typef{
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: #c9c9c9;
+    padding: 10px;
+    display: list-item;
+    margin:auto;
+    border: none;
+}
+
+.typef:focus{
+    background: white;
+    outline: 0;
+    border: 1px solid #fff;
+}
+
+
+.sub1{
+    border: silver;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: rgb(60, 86, 99);
+    padding: 10px 17px 10px 17px;
+    margin: 4px 5px;
+}
+
+.sub1:hover{
+    color: #aac6dd;
+    background-color: #000000;
+    transition: all 500ms;
+}
+
+.sub2{
+    border: silver;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: rgb(60, 86, 99);
+    padding: 10px 15px 10px 15px;
+    margin: 4px 5px;
+}
+
+.sub2:hover{
+    color: #aac6dd;
+    background-color: #000000;
+    transition: all 500ms;
+}
+
+footer{
+    width: 100vw;
+    background: rgb(41, 40, 40);
+    padding: 60px;
+}
+
+
+/* div.social-contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+div.footer1{
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: -3.04rem;
+    margin-top: -3.04rem;
+}
+
+span.foottitle{
+    width: 500px;
+    font-size: 50px;
+    color: #287992;
+    display:inline;
+    text-align: left;
+    text-indent: 150px;
+    transform: translateY(170px);
+    cursor:default;
+}
+
+div.footer1 span.comp{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    display: inline;
+}
+
+ul.compli a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 100ms;
+}
+
+ul.compli a:hover{
+    color: rgb(143, 143, 143);
+}
+
+ul.compli li{
+    list-style-type: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+ul.medialogo li{
+    list-style-type: none;
+    display: inline;
+}
+
+ul.medialogo a{
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 200ms;
+}
+
+ul.medialogo .facebook:hover{
+    color: 	#3b5998;
+}
+
+ul.medialogo .twitter:hover{
+    color: #1DA1F2;
+}
+
+ul.medialogo .linkin:hover{
+    color:  #2867B2;
+}
+
+ul.medialogo .youtube{
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 200ms;
+}
+
+ul.medialogo .youtube:hover{
+    height: 42px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    text-align: center;
+    color: #FF0000;
+}
+
+/* @media (max-width){
+    .compli{
+        color: red;
+        font-size: 2px; 
+    }
+} */
+
+small{
+    color: #fff;
+}
+
+
+
+
+
+
